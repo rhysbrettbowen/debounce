@@ -1,3 +1,10 @@
+/**
+ * @license
+ * 
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2013 Rhys Brett-Bowen
+ */
 var debounce = function(func, wait) {
 	// we need to save these in the closure
 	var timeout, args, context, timestamp;
